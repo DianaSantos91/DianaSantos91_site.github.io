@@ -1,2 +1,2 @@
 # SITE
-repositório para o site do projeto Franzininho
+https://franzininho.github.io/franzininho-site
