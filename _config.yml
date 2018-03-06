@@ -1,5 +1,6 @@
 # Site settings
-title: Franzinho
+title: Franzinho - Um Arduino para todos
+author: Fabio Souza
 email: franzininho.suporte@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A Franzininho é uma placa com ATtiny85 compatível com o Arduino Gemma.
@@ -8,8 +9,17 @@ description: >- # this means to ignore newlines until "baseurl:"
   A proposta é que todos possam montar o seu Arduino, 
   entender como funciona o circuito e usar a criatividade 
   para aplicar e criar novos circuitos e projetos.
+
+# License
+license: Esta obra está licenciado com uma Licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional
+license_url: http://creativecommons.org/licenses/by-sa/4.0/
+license_img_url: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+
+# URL Settings
 baseurl: "" 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social Stuff
 twitter_username: franzininho
 github_username:  Franzininho
 facebook_username: Franzininho
