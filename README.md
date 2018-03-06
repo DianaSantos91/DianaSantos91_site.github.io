@@ -21,12 +21,12 @@ Você precisará instalar o Jekyll na sua máquina local. Siga o passo a passo d
 ## Estrutura de Projeto
 
 ```
- _includes/		# trechos de código recorrentes utilizados no projeto
- _layouts/		# templates princpais
- _posts/		# posts da área de blog (são arquivos formato markdown que utilizam como base o template _includes/post.html)
- _sass/			# arquivos sass
- _site/			# apenas visível na compilação do projeto
- assets/		# arquivos acessórios do projeto (imagens, scripts, css, fonts)
+ _includes/	# trechos de código recorrentes utilizados no projeto
+ _layouts/	# templates princpais
+ _posts/	# posts da área de blog (são arquivos formato markdown que utilizam como base o template _includes/post.html)
+ _sass/		# arquivos sass
+ _site/		# apenas visível na compilação do projeto
+ assets/	# arquivos acessórios do projeto (imagens, scripts, css, fonts)
  404.html       # template do arquivo 404
  _config.yml    # configurações jekyll do projeto e parâmetros globais
  Gemfile        # Lista de gems
