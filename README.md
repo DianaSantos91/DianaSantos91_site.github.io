@@ -1,6 +1,6 @@
 # Website Franzininho
 
-https://franzininho.github.io/
+DianaSantos91_site.github.io
 
 ## Pre-requisitos
 
