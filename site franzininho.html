@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Tentativa </title>
+	<style>
+	*{
+	margin: 0;
+	pading:0;
+	}
+		
+			.links {
+			width: 100%;
+			height: 50px;
+			position: fixed;
+			display: flex;
+			}
+		
+		.links label {
+			
+			padding: 10px 0;
+			flex-grow: 1;
+			cursor: pointer;
+			transition: all .4s;
+			text-align: center;
+			font-family: 'Arial';
+			font-size: 100;
+			color: #fff;
+			
+		}
+		
+		.links label:hover{
+			background-color:rgba(255,255,255,.2);
+		}
+			
+		.scroll input{
+			display: none;
+			}
+		
+		.bloco {
+			
+			width: 100vw;
+		    height: 100vh;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			}
+		
+		#nodejs{
+			background-color: #2C6825;
+		}
+			
+		#bootstrap{
+			background-color: #FFFFFF;;
+		}
+		
+		#sass{
+			background-color: #D1D521;
+		}
+		
+		#ruby{
+			background-color: #F0733A;
+		}
+		
+		#angular{
+			background-color: #067220;
+		}
+			
+		.scroll{
+		 display: flex;
+		 width: 100vw;
+		 height: 100vh;
+		 overflow:hidden;
+		}
+		
+		.sections{
+			transition: all .4s;
+		}
+		
+		#rd_bootstrap:checked~ .sections {
+			margin-top: -100vh;
+		}
+		
+		#rd_sass:checked~ .sections {
+			margin-top: -200vh;
+		}
+		
+		#rd_ruby:checked~ .sections {
+			margin-top: -300vh;
+		}
+		
+		
+		#rd_angular:checked~ .sections {
+			margin-top: -400vh;
+		}
+
+		
+		
+	</style>
+</head>
+
+<body>
+	
+	<nav class="links"> 
+	
+	<label for="rd_nodejs"> Home </label> 
+	<label for="rd_bootstrap">Sobre  </label> 
+	<label for="rd_sass"> Fotos </label> 
+	<label for="rd_ruby"> Downloads </label> 
+	<label for="rd_angular"> Contato </label> 
+		
+    </nav>
+	
+	<div class="scroll">
+		 
+	<input type="radio" name="grupo" id="rd_nodejs" checked="true">
+	<input type="radio" name="grupo" id="rd_bootstrap"> 
+	<input type="radio" name="grupo" id="rd_sass">
+	<input type="radio" name="grupo" id="rd_ruby">
+	<input type="radio" name="grupo" id="rd_angular">
+	
+	<section class="sections">
+		<section class="bloco" id="nodejs"> <img src="FRAN.png">
+		</section> 
+		<section class="bloco" id="bootstrap">
+	  
+			
+		
+			
+			<p align="justify" font-size: 1;>
+			
+O circuito da Franzininho DIY foi baseado nas placas Arduino Gemma e Disgispark, que usam o ATtiny85 como microcontrolador. A Franzininho DIY possui um hardware bem enxuto e sua a placa foi desenvolvida em face simples e com todos os componentes convencionais para promover a cultura DIY (Faça você mesmo). O projeto está disponível no github e você pode fazer sua propria placa de circuito impresso Franzininho ou usar o projeto como base para seus projeto.
+			
+	
+</p>
+			
+		<br>
+		<br> 
+			
+		<img src="pinagem.png" width="" height="350px">
+		</section> 
+		
+		
+		<section class="bloco" id="sass">
+		<img src="fotos/01.jpg" width="" height="300px">
+		<img src="fotos/02.jpg" width="" height="300px">
+		<img src="fotos/03.jpg" width="" height="300px">
+	    <img src="fotos/04.jpg" width="" height="300px">
+			
+	</section>
+		
+		
+		<section class="bloco" id="ruby">
+		
+			
+		<div id="teste"/>
+		
+		<h1> Links para documentação da Franzininho</h1><BR>
+		<a target="_blank"  href="https://github.com/franzininho">Github</a><BR> 
+		<a target="_blank" href="https://goo.gl/RXjure">Material colaborativo para oficinas(colabore) </a> <BR>
+        <a target="_blank"  href="https://goo.gl/H5hWgi">Documento para criticas e sugestões</a> <BR>
+	    <a target="_blank"  href=":https://www.flipsnack.com/FBA58CB9E8C/">Flipsnack:</a> <BR> <BR>
+		<h1>Acesse nossas redes sociais:  </h1> <BR>
+		<a target="_blank"  href="https://www.facebook.com/franzininho">Facebook</a><BR>
+        <a target="_blank"  href="https://www.instagram.com/franzininho">Instagram</a><BR>
+		<a target="_blank"  href="https://www.youtube.com/channel/UCxyabOm4teS0kx0EgJW78_g/featured?disable_polymer=1">Youtube</a><BR>
+		
+  </div>
+		</section>
+		
+		
+		
+		
+		<section class="bloco" id="angular"></section> 
+			
+			<form action="https://mail.google.com/mail/u/1/?tab=wm#inbox" method="post">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" />
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" />
+    </div>
+    <div>
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg"></textarea>
+    </div>
+</form>
+	
+		
+	</section>
+		
+		</div>
+	
+</body>
+</html>
